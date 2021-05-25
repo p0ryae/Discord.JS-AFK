@@ -1,7 +1,7 @@
 const afk = require('../models/afk');
 
 module.exports.run = async (bot, message, args) => {
-  if (message.mentions.roles.first()) {/**-
+  if (message.mentions.roles.first()) {
     return message.channel.send("**CAN'T PING ROLES**");
   }
 
